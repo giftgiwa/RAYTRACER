@@ -1,9 +1,16 @@
 #include <iostream>
+#include "../math/vector3.h"
+#include "../math/ray.h"
+
+
 #include "../renderer/renderer.h"
 
 int main() {
-    std::cout << "Hello, World!" << "\n";
+    std::cout << "run successful!" << "\n";
+    
+    
 
-    // test();
+
+
     return 0;
 }

@@ -1,2 +1,4 @@
+math/vector3.cc
+math/ray.cc
 renderer/renderer.cc
 main/main.cc
