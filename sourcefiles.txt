@@ -1,4 +1,11 @@
-math/vector3.cc
-math/ray.cc
-renderer/renderer.cc
-main/main.cc
+src/math/vector3.cc
+src/math/ray.cc
+src/renderer/renderer.cc
+src/main/main.cc
+
+src/imgui/imgui.cc
+src/imgui/imgui_demo.cc
+src/imgui/imgui_draw.cc
+src/imgui/imgui_tables.cc
+src/imgui/imgui_widgets.cc
+
