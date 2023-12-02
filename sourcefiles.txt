@@ -3,9 +3,3 @@ src/math/ray.cc
 src/renderer/renderer.cc
 src/main/main.cc
 
-src/imgui/imgui.cc
-src/imgui/imgui_demo.cc
-src/imgui/imgui_draw.cc
-src/imgui/imgui_tables.cc
-src/imgui/imgui_widgets.cc
-

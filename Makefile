@@ -1,5 +1,5 @@
-# CC      = g++
-CC		= clang++
+CC      = g++
+# CC		= clang++
 TARGET  = raytracer
 C_FILES = $(filter-out $(TARGET).cc, $(wildcard *.cc))
 
@@ -21,7 +21,7 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cc | $(BUILD_DIR)
 	$(CC) -std=c++11 $(CFLAGS) -c $< -o $@
 
 $(TARGET): $(OBJS)
-	$(CC) -std=c++11 $(CFLAGS) $^ -o $@ $(LDFLAGS)
+	$(CC) -std=c++11 $(CFLAGS) $^ -o $@ $(LDFLAGS) -lglfw
 
 clean:
 	find $(BUILD_DIR) -name '*.o' -type f -delete
